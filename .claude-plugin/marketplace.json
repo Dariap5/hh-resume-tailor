@@ -1,0 +1,20 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "offer-agent",
+  "owner": {
+    "name": "Дарья Пайвина",
+    "url": "https://offer-agent.dariyap.ru"
+  },
+  "metadata": {
+    "description": "Плагины для поиска работы на hh.ru от автора Офферного агента"
+  },
+  "plugins": [
+    {
+      "name": "hh-resume-tailor",
+      "source": "./plugins/hh-resume-tailor",
+      "description": "Разбор резюме и подгонка сразу под несколько вакансий hh.ru: общие требования, недостающие ключевые слова, правки опыта без выдуманного.",
+      "version": "0.1.0",
+      "category": "productivity"
+    }
+  ]
+}

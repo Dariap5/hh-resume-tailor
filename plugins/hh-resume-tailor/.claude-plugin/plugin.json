@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "hh-resume-tailor",
+  "version": "0.1.0",
+  "description": "Разбор резюме и подгонка сразу под несколько вакансий hh.ru: общие требования, недостающие ключевые слова, правки опыта без выдуманного.",
+  "author": {
+    "name": "Дарья Пайвина",
+    "url": "https://offer-agent.dariyap.ru"
+  },
+  "homepage": "https://github.com/Dariap5/hh-resume-tailor",
+  "repository": "https://github.com/Dariap5/hh-resume-tailor",
+  "license": "MIT",
+  "keywords": ["resume", "hh.ru", "job-search", "ats", "резюме", "вакансии"]
+}
